@@ -1,0 +1,71 @@
+{
+  "version": "1.0",
+  "echarts": {
+    "core_version": "5.4.3",
+    "repo": {
+      "url": "https://github.com/apache/echarts/tree/6.0.0",
+      "note": "上游仓库参考，包含 v6.0.0 代码与文档"
+    },
+    "examples": "https://echarts.apache.org/examples/zh/index.html"
+  },
+  "categories": [
+    {
+      "name": "折线图",
+      "items": [
+        { "key": "line-basic", "name": "基础折线图" },
+        { "key": "line-smooth", "name": "基础平滑折线图" },
+        { "key": "line-area-basic", "name": "基础面积图" },
+        { "key": "line-stacked", "name": "折线图堆叠" },
+        { "key": "line-stacked-area", "name": "堆叠面积图" },
+        { "key": "line-gradient-area", "name": "渐变堆叠面积图" },
+        { "key": "line-temperature", "name": "未来一周气温变化" },
+        { "key": "line-confidence-band", "name": "Confidence Band" },
+        { "key": "line-step", "name": "阶梯折线图" },
+        { "key": "line-markline", "name": "折线图的标记线" },
+        { "key": "line-dynamic-time", "name": "动态数据 + 时间坐标轴" }
+      ]
+    },
+    {
+      "name": "柱状图",
+      "items": [
+        { "key": "bar-basic", "name": "基础柱状图" },
+        { "key": "bar-stacked", "name": "堆叠柱状图" },
+        { "key": "bar-negative", "name": "交错正负轴标签" },
+        { "key": "bar-horizontal-stacked", "name": "堆叠条形图" },
+        { "key": "bar-animation-delay", "name": "柱状图动画延迟" },
+        { "key": "bar-drilldown-animation", "name": "柱状图下钻动画" },
+        { "key": "bar-race", "name": "动态排序柱状图" }
+      ]
+    },
+    {
+      "name": "饼图",
+      "items": [
+        { "key": "pie-doughnut", "name": "环形图" },
+        { "key": "pie-half-doughnut", "name": "半环形图" },
+        { "key": "pie-pad-angle", "name": "饼图扇区间隙" },
+        { "key": "pie-nightingale", "name": "南丁格尔玫瑰图" },
+        { "key": "pie-nested", "name": "嵌套环形图" },
+        { "key": "pie-scroll-legend", "name": "可滚动的图例" },
+        { "key": "pie-special-label", "name": "富文本标签" }
+      ]
+    },
+    {
+      "name": "箱线图",
+      "items": [
+        { "key": "boxplot-basic", "name": "基础箱线图", "source": "https://echarts.apache.org/examples/zh/index.html#chart-type-boxplot" },
+        { "key": "boxplot-from-raw", "name": "原始数据生成箱线图", "source": "https://echarts.apache.org/examples/zh/index.html#chart-type-boxplot" },
+        { "key": "boxplot-multi", "name": "多组对比箱线图", "source": "https://echarts.apache.org/examples/zh/index.html#chart-type-boxplot" }
+      ]
+    }
+    ,
+    {
+      "name": "桑基图",
+      "items": [
+        { "key": "sankey-basic", "name": "基础桑基图", "source": "https://echarts.apache.org/examples/zh/index.html#chart-type-sankey" },
+        { "key": "sankey-node-align", "name": "节点右对齐", "source": "https://echarts.apache.org/examples/zh/index.html#chart-type-sankey" },
+        { "key": "sankey-vertical", "name": "垂直桑基图", "source": "https://echarts.apache.org/examples/zh/index.html#chart-type-sankey" },
+        { "key": "sankey-multi-level", "name": "多层级流向", "source": "https://echarts.apache.org/examples/zh/index.html#chart-type-sankey" }
+      ]
+    }
+  ]
+}

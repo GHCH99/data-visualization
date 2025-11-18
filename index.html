@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>数据可视化</title>
+  <script src="https://cdn.jsdelivr.net/npm/echarts@5.4.3/dist/echarts.min.js"></script>
+  <link rel="stylesheet" href="styles.css" />
+  <script type="module" src="src/main.js"></script>
+</head>
+<body>
+  <header class="header">
+    <div class="brand">数据可视化</div>
+    <div class="actions">
+      <label class="switch">
+        <input type="checkbox" id="themeToggle" />
+        <span>深色模式</span>
+      </label>
+    </div>
+  </header>
+  <div class="layout">
+    <aside class="sidebar">
+      <input id="search" class="search" placeholder="搜索示例…" />
+      <nav id="menu" class="menu"></nav>
+    </aside>
+    <main class="main">
+      <div id="chart" class="chart"></div>
+      <section class="editor">
+        <div class="editor-header">
+          <div class="title">配置编辑器</div>
+          <div id="status" class="status"></div>
+        </div>
+        <textarea id="optionEditor" class="editor-input" placeholder="在此粘贴/编辑 ECharts Option JSON"></textarea>
+        <div id="editorError" class="editor-error"></div>
+        <div class="editor-actions">
+          <button id="applyOption" class="btn">应用配置</button>
+          <button id="resetOption" class="btn secondary">重置示例</button>
+          <button id="exportPNG" class="btn secondary">导出 PNG</button>
+          <button id="exportJSON" class="btn secondary">导出 JSON</button>
+          <button id="copyOption" class="btn secondary">复制配置</button>
+        </div>
+      </section>
+      <div id="meta" class="meta"></div>
+    </main>
+  </div>
+</body>
+</html>
